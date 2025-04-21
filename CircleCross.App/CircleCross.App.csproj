@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="iRely.Common" Version="17.4.6491.18934" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CircleCross.Domain\CircleCross.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
