@@ -8,6 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Baseline" Version="4.1.0" />
+    <PackageReference Include="DryIoc.dll" Version="5.4.3" />
+    <PackageReference Include="LamarCodeGeneration" Version="6.3.0" />
+    <PackageReference Include="Microsoft.TeamFoundationServer.Client" Version="19.225.1" />
+    <PackageReference Include="Uno.Core" Version="4.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\CircleCross.App\CircleCross.App.csproj" />
     <ProjectReference Include="..\CircleCross.Domain\CircleCross.Domain.csproj" />
   </ItemGroup>
