@@ -38,18 +38,8 @@ namespace CircleCross
 					case '1':
 						var newId = itemManger.AddNewItem();
 						break;
-					case '2':
-						//var removeId = itemService.RemoveItemView();
-						//itemService.RemoveItem(removeId);
-						break;
-					case '3':
-						//var detailId = itemService.ItemDetailSelectionView();
-						//itemService.ItemDetailView(detailId);
-						break;
-					case '4':
-						//var typeId = itemService.ItemTypeSelectionView();
-						//itemService.ItemsByTypeIdView(typeId);
-						break;
+					
+						
 					default:
 						Console.WriteLine("Action you entered does not exist");
 						break;
@@ -58,7 +48,7 @@ namespace CircleCross
 
 			}
 		}
-
+		
 
 	
 	}

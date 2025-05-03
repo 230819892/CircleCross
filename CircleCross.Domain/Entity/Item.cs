@@ -16,6 +16,8 @@ namespace CircleCross.Domain.Entity
 		[XmlElement("Quantity")]
 		public int Quantity { get; set; }
 		protected bool isLowInWarehouse;
+		private int v1;
+		private string v2;
 
 		public Item()
 		{
@@ -26,6 +28,12 @@ namespace CircleCross.Domain.Entity
 			Name = name;
 			TypeId = typeId;
 			Id = id;
+		}
+
+		public Item(int v1, string v2)
+		{
+			this.v1=v1;
+			this.v2=v2;
 		}
 	}
 }

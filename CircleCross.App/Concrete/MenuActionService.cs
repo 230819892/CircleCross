@@ -33,6 +33,10 @@ namespace CircleCross.App.Concrete
 			AddItem(new MenuAction(1, "Circle", "AddNewItemMenu"));
 			AddItem(new MenuAction(2, "Cross", "AddNewItemMenu"));
 			
+
+
+
+
 		}
 	}
 }
